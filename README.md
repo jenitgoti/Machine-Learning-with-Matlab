@@ -2,11 +2,11 @@
 
 This project focuses on developing a machine learning model that can classify different human activities based on sensor data from a smartphone. The activities include standing, sitting, walking, and knee raises. By using the sensors in a smartphone, specifically the accelerometer and gyroscope, the project aims to gather, process, and analyze data to train a model capable of distinguishing between these activities.
 
-#### Introduction to the Project
+# Introduction to the Project
 
 The project revolves around a common use case in health monitoring apps where different physical activities are recognized automatically. The goal is to classify activities like sitting, standing, walking, and knee raises using data from a smartphone's sensors. The project follows a structured workflow involving data acquisition, preprocessing, feature engineering, model training, and evaluation.
 
-#### Part I: Data Acquisition & Preprocessing
+# Part I: Data Acquisition & Preprocessing
 
 **Data Acquisition:**
 
@@ -23,14 +23,14 @@ Once the data is collected, it undergoes preprocessing to prepare it for feature
 - **Outlier Removal**: Identified and removed any anomalous data points that could distort the model's learning process.
 - **Normalization**: Scaled the data so that all features contribute equally to the model.
 
-#### Feature Engineering
+# Feature Engineering
 
 In this stage, raw sensor data is transformed into a set of meaningful features that better represent the underlying patterns of the activities. This is done using the sliding window technique, which divides the data into overlapping segments (windows) and calculates statistical features like mean, standard deviation, minimum, and maximum for each segment.
 
 - **Sliding Window Method**: Used to break the data into segments, ensuring that each activity is analyzed over a small time frame rather than a single data point.
 - **Feature Extraction**: Computed features from each window, which are then used to create a new dataset with these derived features.
 
-#### Test Task
+# Test Task
 
 To consolidate your understanding and apply the skills learned, a comprehensive test task was completed:
 
