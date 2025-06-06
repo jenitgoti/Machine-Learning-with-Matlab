@@ -1,5 +1,4 @@
 # Machine-Learning-with-Matlab
-### Project Overview: Classification of Human Activities Using Machine Learning in MATLAB
 
 This project focuses on developing a machine learning model that can classify different human activities based on sensor data from a smartphone. The activities include standing, sitting, walking, and knee raises. By using the sensors in a smartphone, specifically the accelerometer and gyroscope, the project aims to gather, process, and analyze data to train a model capable of distinguishing between these activities.
 
